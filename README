@@ -1,0 +1,16 @@
+$ pipenv --three
+$ pipenv install
+$ pipenv install django
+$ pipenv shell
+() python3 -m django --version
+() django-admin startproject {projectName}
+() python3 manage.py runserver {portNumber}
+() python3 manage.py startapp {appName}
+
+
+
+
+
+
+
+# exit
