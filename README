@@ -1,9 +1,15 @@
 $ pipenv --three
 $ pipenv install
 $ pipenv install django
+$ pipenv install psycopg2
+$ pipenv install djangorestframework
 $ pipenv shell
 () python3 -m django --version
 () django-admin startproject {projectName}
+() cd pai
+() python3 manage.py createsuperuser --email cperez@djako.com --username admin
+() python3 manage.py makemigrations
+() python3 manage.py migrate
 () python3 manage.py runserver {portNumber}
 () python3 manage.py startapp {appName}
 
